@@ -93,11 +93,105 @@
 // var numFromUser = [];
 //====================================
 
-var positiveNumber= +prompt("type your number");
-var numArr = [];
-for(var i=0; i<positiveNumber.toString().length; i++){
-    if (positiveNumber>0){
-numArr[i]= positiveNumber.toString().charAt(i)
-console.log(numArr[i])
-    }
-}
+// var positiveNumber= +prompt("type your number");
+// var numArr = [];
+// for(var i=0; i<positiveNumber.toString().length; i++){
+//     if (positiveNumber>0){
+// numArr[i]= positiveNumber.toString().charAt(i)
+// console.log(numArr[i])
+//     }
+// }
+//========================================
+// var numberFromUser= +prompt("type a number");
+// var secondNumber= +prompt("type a secondNumber");
+// var thirdNumber= +prompt("type a thirdNumber");
+
+// if (numberFromUser < secondNumber  && secondNumber < thirdNumber ) {
+//     console.log("סדר עולה")
+// } else if(numberFromUser > secondNumber  && secondNumber > thirdNumber) {
+//     console.log("סדר יורד")
+// }else {
+//     console.log("אין סדר בכלל")
+// }
+//==========================================
+// var array=[25, 30,20, 50, 68, 9];
+// var min=array[0];
+
+// for (var i=0; i<array.length; i++){
+//     if( array[i]< min){
+//         min= array[i]
+//     }
+   
+// }
+// console.log(min);
+//===================================
+// var myArray= [25, 30,20, 50, 68, 9];
+// var max = [0];
+
+// for (var i=1; i<myArray.length; i++) {
+//     if (myArray[i] > max){
+//        max=myArray[i]
+//     }
+// }
+
+// console.log(max)
+//====================================
+// var myArray= [25, 30,20, 50, 68, 9];
+// var sumNumber = 0;
+
+// for ( var i=0; i<myArray.length; i++) {
+   
+//         sumNumber+=myArray[i]
+
+    
+// }
+
+// console.log(sumNumber)
+//========================================
+// var myArray= [25, 30,20, 50, 68, 9];
+// var avgNumber = 0;
+
+// for (var i=0; i < myArray.length; i++){
+//     avgNumber += myArray[i]
+// }
+// console.log(avgNumber/myArray.length)
+//=====================================
+// var myArray= [25, 30,20, 50, 68, 9];
+//  userNumber= +prompt ("enter number");
+
+//  for (var i=0; i<myArray.length; i++){
+//      if(userNumber == myArray[i]){
+//          console.log(userNumber)
+//      }else{
+//          console.log("not exist")
+//      }
+//  }
+
+//====================================
+//  var myArray= [25, 30,20, 50, 68, 9];
+// var avgNumber = 1;
+
+//  for (var i=0; i < myArray.length; i++){
+//      avgNumber *= myArray[i]
+//  }
+//  console.log(avgNumber)
+//=====================================
+//   var myArray= [25, 30,20, 50, 68, 9];
+// for (i=0; i < 10; i++){
+//     for(j=1; j < myArray.length; j++){
+//         console.log(myArray[j]);
+//     }
+// }
+//======================================
+ var myArray=[];
+//  var userNumber= Number(prompt("insert numbers"));
+
+ for (var i = 0; i < 5; i++) {
+userNumber= Number(prompt("insert numbers"));
+     myArray.push(userNumber) 
+      
+ }
+ console.log(myArray);
+
+
+ 
